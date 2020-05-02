@@ -42,7 +42,5 @@
       <strong>{{ comment.author }}</strong>
       <p>{{ comment.text|linebreaks }}</p>
     </div>
-    {% endif %} {% empty %}
+    {% endfor %} {% endblock %}
     <p>Sin comentarios :(</p>
-  {% endfor %} 
-{% endblock %}
